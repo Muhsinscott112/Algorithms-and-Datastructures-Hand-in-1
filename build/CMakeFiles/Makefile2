@@ -65,13 +65,17 @@ CMAKE_BINARY_DIR = "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Al
 # The main recursive "all" target.
 all: CMakeFiles/mymath.dir/all
 all: CMakeFiles/main.dir/all
+all: tests/all
 all: Exercise-1/all
 all: Exercise-2/all
+all: Exercise-4/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
+preinstall: tests/preinstall
 preinstall: Exercise-1/preinstall
 preinstall: Exercise-2/preinstall
+preinstall: Exercise-4/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -105,8 +109,10 @@ clean: CMakeFiles/ContinuousMemCheck.dir/clean
 clean: CMakeFiles/ContinuousSubmit.dir/clean
 clean: CMakeFiles/mymath.dir/clean
 clean: CMakeFiles/main.dir/clean
+clean: tests/clean
 clean: Exercise-1/clean
 clean: Exercise-2/clean
+clean: Exercise-4/clean
 .PHONY : clean
 
 #=============================================================================
@@ -138,6 +144,36 @@ Exercise-2/preinstall:
 # Recursive "clean" directory target.
 Exercise-2/clean: Exercise-2/CMakeFiles/Exercise-2.dir/clean
 .PHONY : Exercise-2/clean
+
+#=============================================================================
+# Directory level rules for directory Exercise-4
+
+# Recursive "all" directory target.
+Exercise-4/all: Exercise-4/CMakeFiles/Exercise-4.dir/all
+.PHONY : Exercise-4/all
+
+# Recursive "preinstall" directory target.
+Exercise-4/preinstall:
+.PHONY : Exercise-4/preinstall
+
+# Recursive "clean" directory target.
+Exercise-4/clean: Exercise-4/CMakeFiles/Exercise-4.dir/clean
+.PHONY : Exercise-4/clean
+
+#=============================================================================
+# Directory level rules for directory tests
+
+# Recursive "all" directory target.
+tests/all: tests/CMakeFiles/tests.dir/all
+.PHONY : tests/all
+
+# Recursive "preinstall" directory target.
+tests/preinstall:
+.PHONY : tests/preinstall
+
+# Recursive "clean" directory target.
+tests/clean: tests/CMakeFiles/tests.dir/clean
+.PHONY : tests/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/Experimental.dir
@@ -874,7 +910,7 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/mymath.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymath.dir/build.make CMakeFiles/mymath.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mymath.dir/build.make CMakeFiles/mymath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" --progress-num=7,8 "Built target mymath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" --progress-num=9,10 "Built target mymath"
 .PHONY : CMakeFiles/mymath.dir/all
 
 # Build rule for subdir invocation for target.
@@ -900,7 +936,7 @@ CMakeFiles/mymath.dir/clean:
 CMakeFiles/main.dir/all: CMakeFiles/mymath.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" --progress-num=5,6 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" --progress-num=7,8 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -918,6 +954,32 @@ main: CMakeFiles/main.dir/rule
 CMakeFiles/main.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
 .PHONY : CMakeFiles/main.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/tests.dir
+
+# All Build rule for target.
+tests/CMakeFiles/tests.dir/all: CMakeFiles/mymath.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" --progress-num=11,12 "Built target tests"
+.PHONY : tests/CMakeFiles/tests.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" 0
+.PHONY : tests/CMakeFiles/tests.dir/rule
+
+# Convenience name for target.
+tests: tests/CMakeFiles/tests.dir/rule
+.PHONY : tests
+
+# clean rule for target.
+tests/CMakeFiles/tests.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/clean
+.PHONY : tests/CMakeFiles/tests.dir/clean
 
 #=============================================================================
 # Target rules for target Exercise-1/CMakeFiles/Exercise-1.dir
@@ -970,6 +1032,32 @@ Exercise-2: Exercise-2/CMakeFiles/Exercise-2.dir/rule
 Exercise-2/CMakeFiles/Exercise-2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Exercise-2/CMakeFiles/Exercise-2.dir/build.make Exercise-2/CMakeFiles/Exercise-2.dir/clean
 .PHONY : Exercise-2/CMakeFiles/Exercise-2.dir/clean
+
+#=============================================================================
+# Target rules for target Exercise-4/CMakeFiles/Exercise-4.dir
+
+# All Build rule for target.
+Exercise-4/CMakeFiles/Exercise-4.dir/all: CMakeFiles/mymath.dir/all
+	$(MAKE) $(MAKESILENT) -f Exercise-4/CMakeFiles/Exercise-4.dir/build.make Exercise-4/CMakeFiles/Exercise-4.dir/depend
+	$(MAKE) $(MAKESILENT) -f Exercise-4/CMakeFiles/Exercise-4.dir/build.make Exercise-4/CMakeFiles/Exercise-4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" --progress-num=5,6 "Built target Exercise-4"
+.PHONY : Exercise-4/CMakeFiles/Exercise-4.dir/all
+
+# Build rule for subdir invocation for target.
+Exercise-4/CMakeFiles/Exercise-4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise-4/CMakeFiles/Exercise-4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" 0
+.PHONY : Exercise-4/CMakeFiles/Exercise-4.dir/rule
+
+# Convenience name for target.
+Exercise-4: Exercise-4/CMakeFiles/Exercise-4.dir/rule
+.PHONY : Exercise-4
+
+# clean rule for target.
+Exercise-4/CMakeFiles/Exercise-4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Exercise-4/CMakeFiles/Exercise-4.dir/build.make Exercise-4/CMakeFiles/Exercise-4.dir/clean
+.PHONY : Exercise-4/CMakeFiles/Exercise-4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

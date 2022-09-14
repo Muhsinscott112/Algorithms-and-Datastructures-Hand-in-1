@@ -9,42 +9,49 @@
 
 using namespace std;
 
-int sum_1(int n)
+int sum_1(int n) //(1)
 {
     int sum = 0;
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i)
+    {
         ++sum;
-        }
+    }
     return sum;
 }
 
-int sum_2(int n)
+int sum_2(int n) //(2)
 {
     int sum = 0;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n; ++j) {
+    for (int i = 0; i < n; ++i)
+    {
+        for (int j = 0; j < n; ++j)
+        {
             ++sum;
         }
     }
     return sum;
 }
 
-int sum_3(int n)
+int sum_3(int n) //(3)
 {
     int sum = 0;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < n * n; ++j) {
+    for (int i = 0; i < n; ++i)
+    {
+        for (int j = 0; j < n * n; ++j)
+        {
             ++sum;
         }
     }
     return sum;
 }
 
-int sum_4(int n)
+int sum_4(int n) //(4)
 {
     int sum = 0;
-    for (int i = 0; i < n; ++i) {
-        for (int j = 0; j < i; ++j) {
+    for (int i = 0; i < n; ++i)
+    {
+        for (int j = 0; j < i; ++j)
+        {
             ++sum;
         }
     }

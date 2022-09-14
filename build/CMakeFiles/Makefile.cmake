@@ -38,9 +38,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../CMakeLists.txt"
   "../Exercise-1/CMakeLists.txt"
   "../Exercise-2/CMakeLists.txt"
+  "../Exercise-4/CMakeLists.txt"
   "CMakeFiles/3.22.0-rc2/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.0-rc2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.0-rc2/CMakeSystem.cmake"
+  "../tests/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -55,8 +57,10 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CPackConfig.cmake"
   "CPackSourceConfig.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Exercise-1/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Exercise-2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Exercise-4/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -91,6 +95,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ContinuousSubmit.dir/DependInfo.cmake"
   "CMakeFiles/mymath.dir/DependInfo.cmake"
   "CMakeFiles/main.dir/DependInfo.cmake"
+  "tests/CMakeFiles/tests.dir/DependInfo.cmake"
   "Exercise-1/CMakeFiles/Exercise-1.dir/DependInfo.cmake"
   "Exercise-2/CMakeFiles/Exercise-2.dir/DependInfo.cmake"
+  "Exercise-4/CMakeFiles/Exercise-4.dir/DependInfo.cmake"
   )

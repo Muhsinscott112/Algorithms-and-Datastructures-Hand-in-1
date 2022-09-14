@@ -14,6 +14,8 @@ target_include_directories(mymath PUBLIC include)
 add_executable(main main.cpp)
 target_link_libraries(main mymath)
 
-
+enable_testing()
+add_subdirectory(tests)
 add_subdirectory(Exercise-1)
 add_subdirectory(Exercise-2)
+add_subdirectory(Exercise-4)

@@ -9,7 +9,9 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -29,7 +31,6 @@
 						6,
 						7,
 						8,
-						11,
 						12,
 						13,
 						14,
@@ -49,7 +50,23 @@
 						28,
 						29,
 						30,
-						31
+						31,
+						32
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						33
 					]
 				},
 				{
@@ -60,7 +77,7 @@
 						"string" : "3.0.0"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 1,
+					"projectIndex" : 2,
 					"source" : "Exercise-1",
 					"targetIndexes" : 
 					[
@@ -75,11 +92,26 @@
 						"string" : "3.0.0"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 2,
+					"projectIndex" : 3,
 					"source" : "Exercise-2",
 					"targetIndexes" : 
 					[
 						10
+					]
+				},
+				{
+					"build" : "Exercise-4",
+					"jsonFile" : "directory-Exercise-4-Debug-1c20328aa3813f60a987.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "Exercise-4",
+					"targetIndexes" : 
+					[
+						11
 					]
 				}
 			],
@@ -90,7 +122,9 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						2,
+						3,
+						4
 					],
 					"directoryIndexes" : 
 					[
@@ -108,7 +142,6 @@
 						6,
 						7,
 						8,
-						11,
 						12,
 						13,
 						14,
@@ -128,13 +161,26 @@
 						28,
 						29,
 						30,
-						31
+						31,
+						32
 					]
 				},
 				{
 					"directoryIndexes" : 
 					[
 						1
+					],
+					"name" : "tests",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
 					],
 					"name" : "Exercise-1",
 					"parentIndex" : 0,
@@ -146,13 +192,25 @@
 				{
 					"directoryIndexes" : 
 					[
-						2
+						3
 					],
 					"name" : "Exercise-2",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
 						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Exercise-4",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
 					]
 				}
 			],
@@ -222,18 +280,25 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 1,
+					"directoryIndex" : 2,
 					"id" : "Exercise-1::@70e8d49b9c07034196c1",
 					"jsonFile" : "target-Exercise-1-Debug-ff3409d54a65304f4f0d.json",
 					"name" : "Exercise-1",
-					"projectIndex" : 1
+					"projectIndex" : 2
 				},
 				{
-					"directoryIndex" : 2,
+					"directoryIndex" : 3,
 					"id" : "Exercise-2::@c31bfbcfb1346bba93e0",
 					"jsonFile" : "target-Exercise-2-Debug-3abc50a51fb7abdf6061.json",
 					"name" : "Exercise-2",
-					"projectIndex" : 2
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "Exercise-4::@f2db7d1106c11792ff5c",
+					"jsonFile" : "target-Exercise-4-Debug-86db0b509fbac771f798.json",
+					"name" : "Exercise-4",
+					"projectIndex" : 4
 				},
 				{
 					"directoryIndex" : 0,
@@ -381,6 +446,13 @@
 					"jsonFile" : "target-mymath-Debug-c124af15a69ff5dd3414.json",
 					"name" : "mymath",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tests-Debug-88d0a60ac2d6f722e1bd.json",
+					"name" : "tests",
+					"projectIndex" : 1
 				}
 			]
 		}

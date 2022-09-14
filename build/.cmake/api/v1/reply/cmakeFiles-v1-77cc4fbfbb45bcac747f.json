@@ -185,10 +185,16 @@
 			"path" : "/Applications/CMake.app/Contents/share/cmake-3.22/Templates/CPackConfig.cmake.in"
 		},
 		{
+			"path" : "tests/CMakeLists.txt"
+		},
+		{
 			"path" : "Exercise-1/CMakeLists.txt"
 		},
 		{
 			"path" : "Exercise-2/CMakeLists.txt"
+		},
+		{
+			"path" : "Exercise-4/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
