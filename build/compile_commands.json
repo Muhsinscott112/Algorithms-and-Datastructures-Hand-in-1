@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build",
+  "command": "/usr/bin/clang++  -I\"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/include\" -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/mymath.dir/main.cpp.o -c \"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/main.cpp\"",
+  "file": "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/main.cpp"
+},
+{
+  "directory": "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build",
+  "command": "/usr/bin/clang++  -I\"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/include\" -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/main.dir/main.cpp.o -c \"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/main.cpp\"",
+  "file": "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/main.cpp"
+},
+{
+  "directory": "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/Exercise-1",
+  "command": "/usr/bin/clang++  -I\"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-1/include\" -I\"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/include\" -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/Exercise-1.dir/src/Exercise-1.cpp.o -c \"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-1/src/Exercise-1.cpp\"",
+  "file": "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-1/src/Exercise-1.cpp"
+},
+{
+  "directory": "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/Exercise-2",
+  "command": "/usr/bin/clang++  -I\"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-2/include\" -I\"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/include\" -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -std=gnu++14 -o CMakeFiles/Exercise-2.dir/src/Exercise-2.cpp.o -c \"/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-2/src/Exercise-2.cpp\"",
+  "file": "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-2/src/Exercise-2.cpp"
+}
+]
