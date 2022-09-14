@@ -6,5 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("tests")
 subdirs("Exercise-1")
-subdirs("Exercise-2")
+subdirs("Exercise-3")
 subdirs("Exercise-4")

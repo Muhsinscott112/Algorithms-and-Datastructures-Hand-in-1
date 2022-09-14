@@ -563,17 +563,17 @@ Exercise-1/fast:
 .PHONY : Exercise-1/fast
 
 #=============================================================================
-# Target rules for targets named Exercise-2
+# Target rules for targets named Exercise-3
 
 # Build rule for target.
-Exercise-2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise-2
-.PHONY : Exercise-2
+Exercise-3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise-3
+.PHONY : Exercise-3
 
 # fast build rule for target.
-Exercise-2/fast:
-	$(MAKE) $(MAKESILENT) -f Exercise-2/CMakeFiles/Exercise-2.dir/build.make Exercise-2/CMakeFiles/Exercise-2.dir/build
-.PHONY : Exercise-2/fast
+Exercise-3/fast:
+	$(MAKE) $(MAKESILENT) -f Exercise-3/CMakeFiles/Exercise-3.dir/build.make Exercise-3/CMakeFiles/Exercise-3.dir/build
+.PHONY : Exercise-3/fast
 
 #=============================================================================
 # Target rules for targets named Exercise-4
@@ -655,7 +655,7 @@ help:
 	@echo "... NightlyTest"
 	@echo "... NightlyUpdate"
 	@echo "... Exercise-1"
-	@echo "... Exercise-2"
+	@echo "... Exercise-3"
 	@echo "... Exercise-4"
 	@echo "... main"
 	@echo "... mymath"

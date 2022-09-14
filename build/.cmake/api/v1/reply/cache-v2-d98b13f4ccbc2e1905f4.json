@@ -1702,6 +1702,42 @@
 			"value" : "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-2"
 		},
 		{
+			"name" : "Exercise-3_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/Exercise-3"
+		},
+		{
+			"name" : "Exercise-3_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "OFF"
+		},
+		{
+			"name" : "Exercise-3_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-3"
+		},
+		{
 			"name" : "Exercise-4_BINARY_DIR",
 			"properties" : 
 			[

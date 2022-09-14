@@ -1,5 +1,5 @@
-#ifndef __EXERCISE_2_H_
-#define __EXERCISE_2_H_
+#ifndef __EXERCISE_3_H_
+#define __EXERCISE_3_H_
 
 #include <iostream>
 

@@ -85,15 +85,15 @@
 					]
 				},
 				{
-					"build" : "Exercise-2",
-					"jsonFile" : "directory-Exercise-2-Debug-92942c375130ed6935c4.json",
+					"build" : "Exercise-3",
+					"jsonFile" : "directory-Exercise-3-Debug-c0640931a1a3a49fb8f9.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.0.0"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 3,
-					"source" : "Exercise-2",
+					"source" : "Exercise-3",
 					"targetIndexes" : 
 					[
 						10
@@ -194,7 +194,7 @@
 					[
 						3
 					],
-					"name" : "Exercise-2",
+					"name" : "Exercise-3",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -288,9 +288,9 @@
 				},
 				{
 					"directoryIndex" : 3,
-					"id" : "Exercise-2::@c31bfbcfb1346bba93e0",
-					"jsonFile" : "target-Exercise-2-Debug-3abc50a51fb7abdf6061.json",
-					"name" : "Exercise-2",
+					"id" : "Exercise-3::@9217ab31dca12ae0ce1a",
+					"jsonFile" : "target-Exercise-3-Debug-b90014508676f48f5c8a.json",
+					"name" : "Exercise-3",
 					"projectIndex" : 3
 				},
 				{

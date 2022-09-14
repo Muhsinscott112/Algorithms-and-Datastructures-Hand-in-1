@@ -319,6 +319,15 @@ Exercise-2_IS_TOP_LEVEL:STATIC=OFF
 Exercise-2_SOURCE_DIR:STATIC=/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-2
 
 //Value Computed by CMake
+Exercise-3_BINARY_DIR:STATIC=/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/Exercise-3
+
+//Value Computed by CMake
+Exercise-3_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+Exercise-3_SOURCE_DIR:STATIC=/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/Exercise-3
+
+//Value Computed by CMake
 Exercise-4_BINARY_DIR:STATIC=/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/Exercise-4
 
 //Value Computed by CMake

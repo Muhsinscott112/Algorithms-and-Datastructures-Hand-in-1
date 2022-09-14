@@ -67,14 +67,14 @@ all: CMakeFiles/mymath.dir/all
 all: CMakeFiles/main.dir/all
 all: tests/all
 all: Exercise-1/all
-all: Exercise-2/all
+all: Exercise-3/all
 all: Exercise-4/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: tests/preinstall
 preinstall: Exercise-1/preinstall
-preinstall: Exercise-2/preinstall
+preinstall: Exercise-3/preinstall
 preinstall: Exercise-4/preinstall
 .PHONY : preinstall
 
@@ -111,7 +111,7 @@ clean: CMakeFiles/mymath.dir/clean
 clean: CMakeFiles/main.dir/clean
 clean: tests/clean
 clean: Exercise-1/clean
-clean: Exercise-2/clean
+clean: Exercise-3/clean
 clean: Exercise-4/clean
 .PHONY : clean
 
@@ -131,19 +131,19 @@ Exercise-1/clean: Exercise-1/CMakeFiles/Exercise-1.dir/clean
 .PHONY : Exercise-1/clean
 
 #=============================================================================
-# Directory level rules for directory Exercise-2
+# Directory level rules for directory Exercise-3
 
 # Recursive "all" directory target.
-Exercise-2/all: Exercise-2/CMakeFiles/Exercise-2.dir/all
-.PHONY : Exercise-2/all
+Exercise-3/all: Exercise-3/CMakeFiles/Exercise-3.dir/all
+.PHONY : Exercise-3/all
 
 # Recursive "preinstall" directory target.
-Exercise-2/preinstall:
-.PHONY : Exercise-2/preinstall
+Exercise-3/preinstall:
+.PHONY : Exercise-3/preinstall
 
 # Recursive "clean" directory target.
-Exercise-2/clean: Exercise-2/CMakeFiles/Exercise-2.dir/clean
-.PHONY : Exercise-2/clean
+Exercise-3/clean: Exercise-3/CMakeFiles/Exercise-3.dir/clean
+.PHONY : Exercise-3/clean
 
 #=============================================================================
 # Directory level rules for directory Exercise-4
@@ -1008,30 +1008,30 @@ Exercise-1/CMakeFiles/Exercise-1.dir/clean:
 .PHONY : Exercise-1/CMakeFiles/Exercise-1.dir/clean
 
 #=============================================================================
-# Target rules for target Exercise-2/CMakeFiles/Exercise-2.dir
+# Target rules for target Exercise-3/CMakeFiles/Exercise-3.dir
 
 # All Build rule for target.
-Exercise-2/CMakeFiles/Exercise-2.dir/all: CMakeFiles/mymath.dir/all
-	$(MAKE) $(MAKESILENT) -f Exercise-2/CMakeFiles/Exercise-2.dir/build.make Exercise-2/CMakeFiles/Exercise-2.dir/depend
-	$(MAKE) $(MAKESILENT) -f Exercise-2/CMakeFiles/Exercise-2.dir/build.make Exercise-2/CMakeFiles/Exercise-2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" --progress-num=3,4 "Built target Exercise-2"
-.PHONY : Exercise-2/CMakeFiles/Exercise-2.dir/all
+Exercise-3/CMakeFiles/Exercise-3.dir/all: CMakeFiles/mymath.dir/all
+	$(MAKE) $(MAKESILENT) -f Exercise-3/CMakeFiles/Exercise-3.dir/build.make Exercise-3/CMakeFiles/Exercise-3.dir/depend
+	$(MAKE) $(MAKESILENT) -f Exercise-3/CMakeFiles/Exercise-3.dir/build.make Exercise-3/CMakeFiles/Exercise-3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" --progress-num=3,4 "Built target Exercise-3"
+.PHONY : Exercise-3/CMakeFiles/Exercise-3.dir/all
 
 # Build rule for subdir invocation for target.
-Exercise-2/CMakeFiles/Exercise-2.dir/rule: cmake_check_build_system
+Exercise-3/CMakeFiles/Exercise-3.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise-2/CMakeFiles/Exercise-2.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Exercise-3/CMakeFiles/Exercise-3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/madaxweyne/Documents/Computer-Science/3rd-Semester/Algorithms and Data Structures/Algorithms-and-Datastructures-Hand-in-1/build/CMakeFiles" 0
-.PHONY : Exercise-2/CMakeFiles/Exercise-2.dir/rule
+.PHONY : Exercise-3/CMakeFiles/Exercise-3.dir/rule
 
 # Convenience name for target.
-Exercise-2: Exercise-2/CMakeFiles/Exercise-2.dir/rule
-.PHONY : Exercise-2
+Exercise-3: Exercise-3/CMakeFiles/Exercise-3.dir/rule
+.PHONY : Exercise-3
 
 # clean rule for target.
-Exercise-2/CMakeFiles/Exercise-2.dir/clean:
-	$(MAKE) $(MAKESILENT) -f Exercise-2/CMakeFiles/Exercise-2.dir/build.make Exercise-2/CMakeFiles/Exercise-2.dir/clean
-.PHONY : Exercise-2/CMakeFiles/Exercise-2.dir/clean
+Exercise-3/CMakeFiles/Exercise-3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Exercise-3/CMakeFiles/Exercise-3.dir/build.make Exercise-3/CMakeFiles/Exercise-3.dir/clean
+.PHONY : Exercise-3/CMakeFiles/Exercise-3.dir/clean
 
 #=============================================================================
 # Target rules for target Exercise-4/CMakeFiles/Exercise-4.dir

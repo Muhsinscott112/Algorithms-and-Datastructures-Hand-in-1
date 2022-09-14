@@ -37,7 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CMake.app/Contents/share/cmake-3.22/Templates/CPackConfig.cmake.in"
   "../CMakeLists.txt"
   "../Exercise-1/CMakeLists.txt"
-  "../Exercise-2/CMakeLists.txt"
+  "../Exercise-3/CMakeLists.txt"
   "../Exercise-4/CMakeLists.txt"
   "CMakeFiles/3.22.0-rc2/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.0-rc2/CMakeCXXCompiler.cmake"
@@ -59,7 +59,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Exercise-1/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Exercise-2/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Exercise-3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Exercise-4/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -97,6 +97,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/main.dir/DependInfo.cmake"
   "tests/CMakeFiles/tests.dir/DependInfo.cmake"
   "Exercise-1/CMakeFiles/Exercise-1.dir/DependInfo.cmake"
-  "Exercise-2/CMakeFiles/Exercise-2.dir/DependInfo.cmake"
+  "Exercise-3/CMakeFiles/Exercise-3.dir/DependInfo.cmake"
   "Exercise-4/CMakeFiles/Exercise-4.dir/DependInfo.cmake"
   )
