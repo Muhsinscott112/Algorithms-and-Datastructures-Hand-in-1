@@ -5,7 +5,6 @@
 #include <random>
 
 #include "Exercise-1.hpp"
-#include "Exercise-3.hpp"
 
 using namespace std;
 
@@ -15,3 +14,5 @@ int main(void)
 
     return 0;
 }
+
+// set(CMAKE_CXX_FLAGS_RELEASE "-O1")

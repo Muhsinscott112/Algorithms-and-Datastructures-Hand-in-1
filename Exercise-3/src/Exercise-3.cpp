@@ -4,7 +4,6 @@
 #include <ctime>
 #include <random>
 
-#include "Exercise-1.hpp"
 #include "Exercise-3.hpp"
 
 using namespace std;
