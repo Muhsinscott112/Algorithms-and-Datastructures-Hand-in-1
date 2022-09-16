@@ -6,6 +6,7 @@
 #include <vector>
 #include <ctime>
 #include <random>
+#include <algorithm>
 
 using namespace std;
 
@@ -26,6 +27,24 @@ public:
 
     // delete and return the maximum element of the heap
     virtual int deleteMax();
+
+private:
+    vector<int> data; // vector that stores heap elements
+
+    int PARENT(int i){ // return parent of i'th element
+        return (i - 1) / 2;
+    }
+
+    int LEFT(int i){ // return left child of i'th element
+        return (2 * i + 1);
+    }
+
+    int RIGHT(int i){ // return right child of i'th element
+        return (2 * i + 2);
+    }
+
+
+
 };
 
 #endif

@@ -2,9 +2,10 @@
 
 #include "Exercise-4.hpp"
 
-int main(int, char **)
-{
-    std::cout << "Hello, world!\n" << endl;
+void Maxheap::insert(vector<int> A_2, const int x, int key) {
+    x++;
 
-    return 0;
+    A_2[x - 1] = key;
+    
+
 }
