@@ -1,5 +1,4 @@
-#ifndef __EXERCISE_3_H_
-#define __EXERCISE_3_H_
+#pragma once
 
 #include <iostream>
 
@@ -57,5 +56,3 @@ int sum_4(int n) //(4)
     }
     return sum;
 }
-
-#endif

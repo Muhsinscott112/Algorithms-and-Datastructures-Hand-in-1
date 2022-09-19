@@ -1,5 +1,4 @@
-#ifndef __EXERCISE_1_H_
-#define __EXERCISE_1_H_
+#pragma once
 
 #include <iostream>
 
@@ -65,5 +64,3 @@ int random_vectors()
 
     return 0;
 }
-
-#endif

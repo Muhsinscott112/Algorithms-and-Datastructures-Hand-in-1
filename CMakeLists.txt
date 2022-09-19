@@ -3,11 +3,13 @@ project(main VERSION 0.1.0)
 
 include(CTest)
 
+
 set(CMAKE_CXX_STANDARD 14)
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
 
+// set(CMAKE_CXX_FLAGS_RELEASE "-O2")
 
 add_library(mymath main.cpp)
 target_include_directories(mymath PUBLIC include)
@@ -20,3 +22,4 @@ add_subdirectory(tests)
 add_subdirectory(Exercise-1)
 add_subdirectory(Exercise-3)
 add_subdirectory(Exercise-4)
+

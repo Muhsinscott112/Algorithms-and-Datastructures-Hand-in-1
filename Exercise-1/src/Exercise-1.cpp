@@ -14,5 +14,3 @@ int main(void)
 
     return 0;
 }
-
-// set(CMAKE_CXX_FLAGS_RELEASE "-O1")
